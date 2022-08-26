@@ -6,7 +6,7 @@ routing:
   table:
   - value: acme
     exporters:
-    - logging/acme
+    - otlp/acme
   - value: globex
     exporters:
-    - logging/globex
+    - otlp/globex
